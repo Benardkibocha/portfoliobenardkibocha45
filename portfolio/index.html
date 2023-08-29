@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script>
+    <title>benard - Portfolio</title>
+</head>
+
+
+<body>
+   <head>
+   
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta charset="utf-8" />
+    
+
+     <!---Common css---->
+        <link href="css/common.css" rel="stylesheet" type="text/css" />
+        <!----Media queries css--->
+         <link href="css/style.css" type="text/css" rel="stylesheet" />
+         <link href="css/theme1024.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme990.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme768.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme480.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme320.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme319.css" rel="stylesheet" type="text/css" />
+    <link href="css/quickweb.css" rel="stylesheet" type="text/css" />
+     <link href="fonts/style.css" rel="stylesheet" type="text/css" />   
+   <link href="css/slider_css.css" type="text/css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
+
+
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/plugin.js"></script>
+</head>
+	    <div class="main">
+                    <header class="header">
+                <div class="container">
+                    <div class="col-12">
+                    <div class="col-4 mb-11 logo-set">
+                        <div class="logo"><img src="Benard-designstyle.png" style="width: 170px; height: auto;" /></div>
+
+                    </div>
+
+                    <nav class="mob-menu-icon mb-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </nav>
+
+                        
+                    <nav class="col-8 menu mob-menu pull-right">
+                        
+                         <nav class="mob-menu-icon" style="padding: 26px 26px;width: 100%;box-sizing: border-box;border-bottom:2px solid #1565C0; ">
+                        
+                        <span class="icon-bar slide-icon-menu-color"></span>
+                        <span class="icon-bar slide-icon-menu-color"></span>
+                        <span class="icon-bar slide-icon-menu-color"></span>
+
+                    </nav>
+                       <!-- <div class="menu-item-box center "><a href="#" class="menu_link">Home</a>
+
+                            <div class="sub_cata" style="height: 200px;position: absolute;z-index: 99999;background-color: #000;margin-top: 29px;">
+                                Test sub cata
+                            
+                            </div>
+
+                        </div>-->
+                        <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
+                        <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
+                        <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
+                      
+                      <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Portfolio</a></div>
+                      
+                        <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
+                        
+
+                        </nav>
+                        
+
+
+                       
+
+                    </div>
+                        </div>
+            <section class="banner top" id="home" style="background-image:url(black.jpg);">
+        
+        <div class="container">
+           <div class="col-5 mb-12 mb-center banner-box">
+               
+               <div class="banner_line1">The great aim of education is not knowledge but action.</div>
+               <div class="banner_brief_text">Education not only broadens the mind but adds the most important component for critical thought, depth.</div>
+               <div    class="mb-center mb-12">
+               <div class="button-1">
+                  <a href="mailto:benardkibocha45@gmail.com">Create Your Site</a>
+               </div>
+
+            <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
+        </div>
+            </div>
+       <!--  <div class="col-12 banner-extra-div color-black-s-light">
+ 
+    </div>-->
+    </section>
+	
+	
+	
+	
+	    <section class="multiple-template section-padding color-light-white" id="portfolio">
+                <div class="container">
+                    <div class="main-title font-color-s-light">Our Example</div>
+                    <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+
+                   
+                    
+                    <div class="col-4" style="padding:5px;">
+                   <div style="height:235px;border:1px solid #f5f5f5;border-radius:3px;box-sizing:border-box">
+                    <div class="template-header" style="padding: 10px 0px;background-color: rgb(255, 255, 255);border-bottom: 1px solid rgb(222, 222, 222)">
+                        <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                        <div style="clear:both"></div>
+                    </div>
+
+                        <div class="temp-data-box" style="height:210px;background-color:#fff;position:relative;overflow:hidden; background-image:url(image/Screenshot.png);background-position:center 0px;background-size:cover;">
+
+                            <!--<img src="image/temp1.jpg" style="width:100%;" />-->
+                            <div class="temp-data-box-overlay" style="position:absolute;top:0px;left:0px;background-color:rgba(0, 0, 0, 0.5);width:100%;height:100%;text-align:center;">
+                                <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                                <a href="#"><span class="button-2   ">
+                                    View Template
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-4" style="padding:5px;">
+                   <div style="height:235px;border:1px solid #f5f5f5;border-radius:3px;box-sizing:border-box">
+                    <div class="template-header" style="padding: 10px 0px;background-color: rgb(255, 255, 255);border-bottom: 1px solid rgb(222, 222, 222)">
+                        <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                        <div style="clear:both"></div>
+                    </div>
+
+                        <div class="temp-data-box" style="height:210px;background-color:#fff;position:relative;overflow:hidden; background-image:url(Screenshot3.png);background-position:center 0px;background-size:cover;">
+
+                        <!--    <img src="image/temp1.jpg" style="width:100%;" />-->
+                            <div class="temp-data-box-overlay" style="position:absolute;top:0px;left:0px;background-color:rgba(0, 0, 0, 0.5);width:100%;height:100%;text-align:center;">
+                                <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                                <a href="#"><span class="button-2   ">
+                                    View Template
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-4" style="padding:5px;">
+                   <div style="height:235px;border:1px solid #f5f5f5;border-radius:3px;box-sizing:border-box">
+                    <div class="template-header" style="padding: 10px 0px;background-color: rgb(255, 255, 255);border-bottom: 1px solid rgb(222, 222, 222)">
+                        <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                        <div style="clear:both"></div>
+                    </div>
+
+                        <div class="temp-data-box" style="height:210px;background-color:#fff;position:relative;overflow:hidden; background-image:url(Screenshot4.png);background-position:center 0px;background-size:cover;">
+
+                            <!--<img src="image/temp1.jpg" style="width:100%;" />-->
+                            <div class="temp-data-box-overlay" style="position:absolute;top:0px;left:0px;background-color:rgba(0, 0, 0, 0.5);width:100%;height:100%;text-align:center;">
+                                <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                                <a href="#"><span class="button-2   ">
+                                    View Template
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  
+
+               </div>
+
+    </section>
+
+
+
+<div id="app">
+    <section class="choose-theme section-padding color-white"  id="about">
+        <div class="container">
+            <div class="main-title font-color-m-light">About Us.</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+            <div class="col-8 about-image"><img src="image/22.png" style="" /></div>
+            <div class="col-4 padding-lr" style="box-sizing:border-box;" >
+                <div class="sub-title font-color-s-light">
+                    Everything  you need
+                </div>
+
+                <div class="content-box" style="">                    Whether you need simple pages, striking galleries, a professional blog, or an online store, it's all included with your Squarespace website. Best of all, everything is mobile-ready right from the start.
+                </div>
+                <a href="#services"><div class="view-template" >View More</div></a>
+            </div>
+       
+            </div>
+
+    </section>
+	  <counter-component></counter-component>
+    </section>
+</div>
+	
+	
+
+    <section class="service section-padding color-white" id="services">
+        <div class="container">
+                    <div class="main-title font-color-m-light">Servcies.</div>
+            <p class="main-content">Explore our range of services to power your online presence:</p>
+            <div class="service-box">
+            <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-mail-alt"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Domain + Email</div>
+                        <div class="feature-content">Get a custom domain name and professional email addresses to establish your online identity.</div>
+                    </div>
+                    
+                
+            </div>
+            <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-cloudapp"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Web Hosting</div>
+                        <div class="feature-content">Host your website on reliable servers, ensuring fast loading times and smooth performance.</div>
+                    </div>
+                    
+                
+            </div>
+			
+			
+
+			
+           <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-code"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Website Customization</div>
+                        <div class="feature-content">Tailor your website's appearance and functionality to match your brand and unique requirements.</div>
+                    </div>
+                    
+                
+            </div>
+                 <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-chart-bar"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Search Engine Optimization</div>
+                        <div class="feature-content">Optimize your website's content, structure, and performance to rank higher on search engines and attract organic traffic.</div>
+                    </div>
+                    
+                
+            </div>
+            <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-monitor"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Resposive Design</div>
+                        <div class="feature-content">Ensure your website is accessible and looks great on all screen sizes, enhancing user experience.</div>
+                    </div>
+                    
+                
+            </div>
+           <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-lock"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Secure and Reliable</div>
+                        <div class="feature-content">Implement robust security measures to protect your website from potential threats and ensure reliable performance.</div>
+                    </div>
+                    
+                
+            </div>
+                </div>
+        </div>
+    </section>
+	
+	
+        <section class="key-feature section-padding color-grey">
+        <div class="container">
+              <div class="main-title font-color-m-light">Features for Your Online Business</div>
+            <p class="main-content">Enhance your online presence with these amazing features: </p>
+
+            <div class="col-5  padding-lr" >
+               <div class="col-12 feature-box" style="padding:5px 0px;">
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-monitor"></i></div>
+                   <div class="col-10 content-box">
+                       <div class="feature-name">Resposive design</div>
+                        <div class="feature-content">Ensure your website looks great on all devices, from desktops to smartphones.</div>
+                       </div>
+                  
+               </div>
+
+                <div class="col-12 feature-box" style="padding:5px 0px;">
+                    
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-chart-pie-1"></i></div>
+                 <div class="col-10 content-box">
+                       <div class="feature-name">Easy Customization</div>
+                        <div class="feature-content">Easily customize your website's design and layout to match your brand.</div>
+                       </div>
+               </div>
+
+                  <div class="col-12 feature-box" style="padding:5px 0px;">
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-sliders"></i></div>
+                  <div class="col-10 content-box">
+                       <div class="feature-name">Step to Step Guide</div>
+                        <div class="feature-content">Follow our comprehensive step-by-step guide to easily set up your online business and website.</div>
+                       </div>
+               </div>
+                <div class="col-12 feature-box" style="padding:5px 0px;">
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-cloud-1"></i></div>
+                  <div class="col-10 content-box">
+                       <div class="feature-name">Secure and Reliable</div>
+                        <div class="feature-content">Ensure your website's security and reliability with advanced measures and hosting solutions.</div>
+                       </div>
+               </div>
+
+            </div>
+            
+            <div class="col-7" style="">
+                <div class="col-12 feature-img center" style="">
+                <img src="image/monitor.png" /></div>
+            </div>
+        </div>
+    </section>	
+	
+	
+	
+	<div id="map"></div>
+ 
+    <section class="map color-light-white" id="contact">n></iframe>
+<iframe width="100%" height="450" frameborder="0" src="https://www.openstreetmap.org/export/embed.html?bbox=37.03800201416016%2C-0.5333441956240957%2C37.16949462890626%2C-0.4310376516427704&amp;layer=mapnik" style="border:0" allowfullscreen></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/-0.4822/37.1037">View Larger Map</a></small>
+    </section>
+    
+	
+	
+       <section class="contact-address section-padding color-light-white">
+        <div class="container">
+        <div class="col-12">
+            <div class="contact-box col-4">
+                <div class="col-12 contact-icon"><i class="quickweb-icon-direction"></i></div> 
+                          <div class="col-12 contact-title">Nairobi <br /> Kenya</div>
+
+                      </div>
+                   <div class="contact-box col-4">
+                       <div class="col-12 contact-icon"><i class="quickweb-icon-phone"></i></div>
+                       <div class="col-12 contact-title">+254 759 921439</div>
+
+                   </div> 
+                <div class="contact-box col-4">
+                     <div class="col-12 contact-icon"><i class="quickweb-icon-mail-alt"></i></div>
+                      <div class="col-12 contact-title">benardkibocha45@gmail.com</div>
+                </div>
+
+            
+    </div></div>
+            </section>
+     
+	 
+	
+	 
+    <section class="contact section-padding color-white">
+        <div class="container">
+            <div class="main-title font-color-m-light">Contact Us</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+            <form action="MAILTO:benardkibocha45@gmail.com"  method="post" enctype="text/plain">
+            <div class="col-12">
+                <div class="textbox-set col-12">
+                    <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Name*" id="name" /></div>
+                    <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Phone" /></div>
+                    <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Email*" id="email" /></div>
+                    
+                    <div class="col-12 textbox-box padding-tblr"><textarea  class="col-12 textbox" placeholder="Message*" style="height:100px;padding:10px 0px;resize:none;" id="message" ></textarea></div>
+
+                    <div class="send padding-lr"><button id="send_email" value="Send" class="view-template" style="border:none;border-bottom: 2px solid #64A548;" onclick="getCheck()">Send</button></div>
+                </div>
+            </div>
+                </form> 
+            </div>
+        </section>
+
+
+
+
+
+        <section class="footer">
+            
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="col-6 mb-6" style="color:#606873">
+                            <div class="footer-menu" style="vertical-align:middle;">
+                                                  <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
+                        <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
+                        <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
+                 
+                        <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Portfolio</a></div>
+                       
+                        <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
+         
+                             </div>
+                        </div>
+                <div class="col-6 mb-6 social right">
+    <div class="col-3"><a href="https://www.facebook.com/benard kibocha"><i class="quickweb-icon-facebook"></i></a></div>
+    <div class="col-3"><a href="https://twitter.com/P.A.P.I.D.O.N65613109"><i class="quickweb-icon-twitter"></i></a></div>
+    <div class="col-3"><a href="https://www.instagram.com/benard."><i class="quickweb-icon-instagram"></i></a></div>
+	    <div class="col-3"><a href="https://www.threads.com/benard."><i class="quickweb-icon-threads"></i></a></div>
+</div>
+  </div>
+              <div class="col-12 creator" style="padding-top:25px;">
+                <div class="col-6 copyright">© 2023 All Rights Reserved by benard. </div>
+                <div class="col-6 design-by">
+                    <div class="col-8" style="color: #E5E5E5;font-weight: 100;font-size: 15px;">Made With <i class="quickweb-icon-heart" style="color:rgb(216, 24, 24);font-size:20px;"></i>By</div>
+                    <div class="col-4 footer-logo" >    <img src="Benard.png" style="" /></div> </div>
+             </div>
+            </div>
+            </div>
+        </section>
+
+        </div>
+		
+		<div id="app">
+    <counter-component></counter-component>
+</div>
+    <script type="text/javascript">
+        thumb_slider({
+
+            thumbs_to_show: 1,
+            thumbs_to_move: 1,
+            thumbs_width: 0,
+            thumbs_count: 0,
+            timeout: 10000,
+            parent_id: "main_slider",
+            container_class: "thumb_slider",
+            thumb_class: "thumbs",
+            spacing: 0,
+            processing: false,
+            hover: false,
+            next_class: "next",
+            prev_class: "prev",
+            timer: setTimeout(function () { })
+
+        });
+		
+		
+		    Vue.component('counter-component', {
+        data() {
+            return {
+                count: 0
+            };
+        },
+        methods: {
+            increment() {
+                this.count++;
+            }
+        },
+        template: `
+            <div>
+                <h3>Click the button to increment the counter:</h3>
+                <p>Counter value: {{ count }}</p>
+                <button @click="increment">Increment</button>
+            </div>
+        `
+    });
+
+    new Vue({
+        el: '#app'
+    });
+	
+	   Vue.component('counter-component', {
+        data() {
+            return {
+                count: 0
+            };
+        },
+        methods: {
+            increment() {
+                this.count++;
+            },
+            decrement() {
+                this.count--;
+            }
+        },
+        template: `
+            <div class="counter">
+                <p>Count: {{ count }}</p>
+                <button @click="increment">Increment</button>
+                <button @click="decrement">Decrement</button>
+            </div>
+        `
+    });
+
+    new Vue({
+        el: '#app'
+    });
+	
+	
+	<script>
+  function initMap() {
+    const map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: -1.2920663989826916, lng: 36.821946314251196 }, // Nairobi's coordinates
+      zoom: 12 // Adjust the zoom level
+    });
+  }
+</script>
+
+    </script> 
+    
+    <script src="scripts/main.js"></script>
+
+</body>
+
+
+
+</html>
